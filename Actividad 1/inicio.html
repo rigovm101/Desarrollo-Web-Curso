@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html id="tema" class="claro">
+  <head>
+    <title>Our Site</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="img/logo.png"></div>
+      <a href="#"><div>Home</div></a>
+      <a href="#"><div>About Us</div></a>
+      <a href="#"><div>Services</div></a>
+      <a href="#"><div>Contact</div></a>
+    </nav>
+    <div class="Selector">
+      <a onclick="myFunctionClaro()">Claro</a> | <a onclick="myFunctionOscuro()">Oscuro</a>
+    </div>
+    <div class="cuerpo">
+    <div>
+      <h2>Column 1</h2>
+      <img src="img/imagen1.jpg" style = "width: 100%;">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis efficitur leo, quis tristique dolor euismod id. Suspendisse id orci nisl. Aliquam non orci vel augue interdum ultrices non at eros. Sed ante sapien, semper ut cursus eu, fermentum sit amet ligula. Nulla id tristique dolor. Integer velit quam, eleifend ac consectetur ut, rutrum a justo. Aenean mattis odio sapien, ut vehicula mi consectetur nec. Nullam iaculis viverra lectus eu scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam vel enim et risus tincidunt dapibus et sed magna. Vestibulum placerat efficitur diam, eu tincidunt purus commodo aliquet. Ut nec ipsum quis est elementum convallis vitae vel sem. Nam auctor purus eu nisl eleifend, id varius arcu feugiat. Suspendisse in libero felis. Nam fermentum nunc vel urna accumsan scelerisque.</p>
+    </div>
+    <div>
+      <h2>Column 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis efficitur leo, quis tristique dolor euismod id. Suspendisse id orci nisl. Aliquam non orci vel augue interdum ultrices non at eros. Sed ante sapien, semper ut cursus eu, fermentum sit amet ligula. Nulla id tristique dolor. Integer velit quam, eleifend ac consectetur ut, rutrum a justo. Aenean mattis odio sapien, ut vehicula mi consectetur nec. Nullam iaculis viverra lectus eu scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam vel enim et risus tincidunt dapibus et sed magna. Vestibulum placerat efficitur diam, eu tincidunt purus commodo aliquet. Ut nec ipsum quis est elementum convallis vitae vel sem. Nam auctor purus eu nisl eleifend, id varius arcu feugiat. Suspendisse in libero felis. Nam fermentum nunc vel urna accumsan scelerisque.</p>
+    </div>
+    <div>
+      <h2>Column 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis efficitur leo, quis tristique dolor euismod id. Suspendisse id orci nisl. Aliquam non orci vel augue interdum ultrices non at eros. Sed ante sapien, semper ut cursus eu, fermentum sit amet ligula. Nulla id tristique dolor. Integer velit quam, eleifend ac consectetur ut, rutrum a justo. Aenean mattis odio sapien, ut vehicula mi consectetur nec. Nullam iaculis viverra lectus eu scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam vel enim et risus tincidunt dapibus et sed magna. Vestibulum placerat efficitur diam, eu tincidunt purus commodo aliquet. Ut nec ipsum quis est elementum convallis vitae vel sem. Nam auctor purus eu nisl eleifend, id varius arcu feugiat. Suspendisse in libero felis. Nam fermentum nunc vel urna accumsan scelerisque.</p>
+    </div>
+  </div>
+    <div class="footer">Copyright 2020 All Rights Reserved</div>
+    <script type="text/javascript">
+      function myFunctionOscuro() { 
+        var element = document.getElementById("tema"); 
+        element.classList.remove("claro"); 
+        element.classList.add("oscuro"); 
+      } 
+      function myFunctionClaro() { 
+        var element = document.getElementById("tema"); 
+        element.classList.remove("oscuro"); 
+        element.classList.add("claro"); 
+      } 
+    </script>
+  </body>
+</html>
