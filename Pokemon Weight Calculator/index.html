@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokemon Weight Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Search Pokemon:</h1>
+    <span id="error_message" style="color: white;">Error, Pokemon Not Found</span>
+    <br>
+    <input type="text" name="pokemon_name" id="pokemon_name">
+    <button id="search_pokemon">Search</button>
+    <br>
+    <div>Total Weight: <span id="total_weight">0.00</span></div>
+    <br><br>
+
+    <table>
+        <thead>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Delete</th>     
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+
+</body>
+<script src="main.js"></script>
+</html>
